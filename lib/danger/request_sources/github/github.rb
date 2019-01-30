@@ -218,6 +218,8 @@ module Danger
           raise "Couldn't find a commit to update its status".red
         end
 
+        details_url = "https://george-labs.com"
+        
         begin
           client.create_status(ci_source.repo_slug, latest_pr_commit_ref, status, {
             description: message,
