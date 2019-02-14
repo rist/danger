@@ -10,6 +10,14 @@
 
 ## master
 
+## 5.14.0
+
+* Add `--fail-if-no-pr` flag, breaks builds if no PR is found [@ghiculescu](https://github.com/ghiculescu)
+
+## 5.13.0
+
+* Add support for Bitbucket Pipelines [@HelloCore](https://github.com/HelloCore)
+
 ## 5.12.0
 
 * Fixed interface with GitLab CI [@pbendersky](https://github.com/pbendersky)
